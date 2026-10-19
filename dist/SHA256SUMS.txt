@@ -1,1 +1,2 @@
-d3be46d5382c48e187bfdfdb6039d30b684df807440c5b597a607d2259ced8e2  cresard-tables-windows-x64-portable.zip
+b8753e1047ee11b07f79cda9f8a31257ff6403e709b49ea63956232d90b8af79  cresard-tables-windows-x64-portable.zip
+e39a437acc0ae0b4939da583d50512a664996762ac32eb75a6c1e1df75f663b7  cresard-tables-windows-x64.msi
