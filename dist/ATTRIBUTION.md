@@ -52,10 +52,14 @@ software's interface and no third-party artwork.
 
 | Asset | Author | Source | Licence | Notes |
 |---|---|---|---|---|
-| `docs/images/hero-sales.png` | Cresard Desk | `cresard-tables --sample sales`, captured via `ui.screenshot` | MIT OR Apache-2.0 | Quarterly Sales Dashboard, light |
-| `docs/images/dark-sales.png` | Cresard Desk | same, with `ui.set {dark:true}` | MIT OR Apache-2.0 | The same dashboard in dark mode |
-| `docs/images/budget.png` | Cresard Desk | `cresard-tables --sample budget`, captured via `ui.screenshot` | MIT OR Apache-2.0 | Household budget: accounting formats, colour scales, bar chart |
-| `docs/images/grades-formulas.png` | Cresard Desk | `cresard-tables --sample grades`, captured via `ui.screenshot`, Formulas tab | MIT OR Apache-2.0 | Gradebook: IFS, data bars, function library |
+| `docs/images/hero-sales.png` | Cresard Desk | `--sample sales` with `ui.set {dark:false}`, captured via `ui.screenshot` | MIT OR Apache-2.0 | Quarterly Sales Dashboard, light chrome |
+| `docs/images/dark-sales.png` | Cresard Desk | the same view with `ui.set {dark:true}` | MIT OR Apache-2.0 | The same dashboard in dark mode: the chrome darkens and the sheet keeps its paper colour |
+| `docs/images/budget.png` | Cresard Desk | `--sample budget` with `ui.set {dark:false}`, captured via `ui.screenshot` | MIT OR Apache-2.0 | Household budget: accounting formats, colour scales, bar chart |
+| `docs/images/grades-formulas.png` | Cresard Desk | `--sample grades` with `ui.set {dark:false}` and `ui.ribbon {tab:"Formulas"}`, captured via `ui.screenshot` | MIT OR Apache-2.0 | Gradebook: IFS, data bars, function library |
+
+Each capture asks for its own theme before it shoots. A fresh window follows the system
+appearance, so a screenshot that does not is a picture of whatever machine happened to take it —
+which is how the light and the dark shot once ended up as the same file.
 
 ## Packaging artwork
 
