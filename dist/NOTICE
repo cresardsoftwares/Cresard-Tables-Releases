@@ -1,0 +1,33 @@
+Cresard Tables
+Copyright (c) 2026 Cresard Desk. All rights reserved.
+
+Cresard Tables is a rebranded, modified distribution of GridCraft, which is
+Copyright (c) 2026 ArtCraft Team and the GridCraft contributors, and is licensed
+under the MIT License or the Apache License, Version 2.0, at your option
+(see LICENSE-MIT and LICENSE-APACHE in this repository). Both license texts are
+reproduced verbatim and are unchanged; the upstream copyright notice above is
+retained as those licenses require.
+
+  Upstream project: GridCraft, https://github.com/storytold/gridcraft
+  Upstream version adopted: 0.8.0 (commit 66ce6be, 2026)
+  Changes: rebranded name, identifiers, icons, palette and documentation;
+  every file in this repository is derived from GridCraft.
+
+The Cresard Desk name, wordmark, mark and logos in assets/brand/ and
+assets/app-icon/ are trademarks of Cresard Desk. They are not covered by the
+licenses above. The ArtCraft name, wordmark and logos that upstream carried have
+been removed, as the upstream brand terms require of a modified distribution.
+
+Cresard Tables is an independent product. It is not affiliated with, sponsored
+by or endorsed by the ArtCraft Team, and it is not affiliated with, sponsored by
+or endorsed by Microsoft Corporation. Microsoft, Excel and Microsoft 365 are
+trademarks or registered trademarks of Microsoft Corporation; those names are
+used here only to describe the workflows this product is compatible with.
+
+Third-party material
+
+This product bundles third-party material under its own licenses, listed below.
+The per-file list (author, source, license) is in ATTRIBUTION.md. Builds made
+with craft-fonts (CRAFT_FONTS_DIR) embed the fonts listed in ATTRIBUTION.md under
+the SIL Open Font License 1.1. The Rust crates `craft-print` and `craft-ui` are
+consumed from https://github.com/storytold/craft-libs under MIT OR Apache-2.0.
